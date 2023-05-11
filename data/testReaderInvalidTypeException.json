@@ -1,0 +1,6 @@
+{"transactions": [
+  {
+    "amount": 200,
+    "type": "invalid type",
+    "category": "Job"
+}]}

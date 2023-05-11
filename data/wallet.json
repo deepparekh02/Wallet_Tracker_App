@@ -1,0 +1,32 @@
+{"transactions": [
+    {
+        "amount": 450,
+        "type": "income",
+        "category": "Job"
+    },
+    {
+        "amount": 700,
+        "type": "expense",
+        "category": "Housing"
+    },
+    {
+        "amount": 800,
+        "type": "income",
+        "category": "Job"
+    },
+    {
+        "amount": 200,
+        "type": "income",
+        "category": "Investment"
+    },
+    {
+        "amount": 550,
+        "type": "expense",
+        "category": "Housing"
+    },
+    {
+        "amount": 50,
+        "type": "expense",
+        "category": "Food"
+    }
+]}

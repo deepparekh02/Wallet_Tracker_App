@@ -1,0 +1,12 @@
+{"transactions": [
+    {
+        "amount": 300,
+        "type": "income",
+        "category": "Investment"
+    },
+    {
+        "amount": 400,
+        "type": "expense",
+        "category": "entertainment"
+    }
+]}

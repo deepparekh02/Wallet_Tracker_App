@@ -1,0 +1,12 @@
+{"transactions": [
+    {
+        "amount": 200,
+        "type": "income",
+        "category": "Job"
+    },
+    {
+        "amount": 100,
+        "type": "expense",
+        "category": "Food"
+    }
+]}
