@@ -1,5 +1,10 @@
 # My Wallet Tracker #
 
+## Table of Contents ##
+1) Description
+2) User Stories
+3) Screenshot
+    
 ### A handy application that remembers what you earn and spend. ###
 
 *Description* of the application:
