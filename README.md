@@ -25,27 +25,5 @@ for both income and expense.
 - As a user, when I select the quit option from the application menu, I want to be reminded to save my history
  to file and have the option to do so or not.
  
- ## Phase 4: Task 2 ##
-- **Option chosen:** Testing and Designing a class in the model package which is robust. 
-- **Classes and Methods Involved:** 
-  - The method convertStringToType() in the Transactions class creates and throws a new
-InvalidTypeException which is further thrown by the constructor in the same class. 
-  - The method actionPerformed(ActionEvent e) in the inner class SubmitTransactionButton, which implements an 
-  ActionListener, in the outer class WalletAppGUI catches the exception after calling the Transaction constructor 
-  and shows a message in a pop-up dialog box to the user to notify that they submitted an invalid type to the program.
-  - The addTransaction method in the JsonReader class also throws the InvalidTypeException when the Json file being read
-  has an invalid type stored on it. This is further thrown up all the way in the methods addTransactions,
-  parseListOfTransactions and read. It is caught in the actionPerformed method in the inner class LoadButton which
-  implements ActionListener in the class WalletAppGUI. It shows an error message to the user informing them of the 
-  invalid type stored on file in the form of a pop-up dialog box when caught.
-  
-## Phase 4: Task 3
- - I would have made Transaction an abstract class and have it extended by two classes IncomeTransaction and 
- ExpenseTransaction that have the same methods but different implementations on top of some special class-specific
- methods.
- - I would have had formed a bi-directional relationship between Transaction and ListOfTransactions so that each 
- transaction would have knowledge of which ListOfTransactions object it belongs to, and I would have programmed the 
- ability to shift a Transaction object from one ListOfTransactions object to another.
- - I would have made the type field of each Transaction object be an enumeration with only two options expense or 
- income instead of setting them up through the use of strings. I would have made the user select from the two options, 
- through a drop down list box or two option buttons, in the GUI to record the type of the Transaction.
+## Screenshot ##
+<img width="1011" alt="Screenshot 2023-05-31 at 1 04 49 AM" src="https://github.com/deepparekh02/wallet-tracker-app/assets/65657471/3dfdc869-5c11-4659-9648-15d088a3ec1f">
