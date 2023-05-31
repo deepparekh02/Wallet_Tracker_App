@@ -1,13 +1,12 @@
 # My Wallet Tracker #
+### A handy application that remembers what you earn and spend. ###
 
 ## Table of Contents ##
 1) Description
 2) User Stories
 3) Screenshot
     
-### A handy application that remembers what you earn and spend. ###
-
-*Description* of the application:
+## Description ##  
 - **What will the application do?** The application will keep track of a person's income and expenditure and show them 
 a summary of all the transactions in the last certain time periods while showing them their *positive or negative 
 balance.*
